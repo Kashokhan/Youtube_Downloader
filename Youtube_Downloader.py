@@ -28,7 +28,7 @@ resolution_audio=["128k","48k","256k",]
 resolution_a=st.selectbox("Select Audio Section",resolution_audio)
 if not auto_resolution:
     resolution=st.selectbox("slecet video resolution",resolution_option)
-if st.button("Downoader"):
+if st.button("Download"):
     if url:
         try:
             yt=YouTube(url)
